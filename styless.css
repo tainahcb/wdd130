@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d6c4c4;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+    margin: 0 0 10px 0;
+  }
+  
+  header {
+    background-color: #716d6d;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header img {
+    height: 80px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    background-image: url("images/raft7.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  article {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  article img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 30px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  main{
+    background-color: beige;
+    
+  }
+
+  
+  .contact-form{
+    box-sizing: content-box;
+  
+  @media screen and (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    article img {
+      width: 100%;
+      height: auto;
+      margin-right: 0;
+    }
+  
+    .main-content {
+      padding: 10px;
+  }
