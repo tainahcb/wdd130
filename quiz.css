@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; 
+}
+
+header { 
+  background-color: #716d6d; 
+  color: #fff; 
+  padding: 20px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+} 
+
+header img { 
+  height: 80px; 
+} 
+
+nav a { 
+  color: #fff; 
+  text-decoration: none; 
+  margin-right: 20px; 
+} 
+
+nav a:hover { 
+  text-decoration: underline; 
+} 
+
+.container { 
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  background-color: #fff; 
+  border-radius: 5px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.question { 
+  margin-bottom: 20px; 
+}
+
+.question label { 
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+.question input[type="text"], 
+
+.question textarea,
+
+.question select, 
+
+.question input[type="number"] { 
+  display: block; 
+  width: 100%; 
+  margin-bottom: 10px; }
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    opacity: 0.8;
+    background-color: #000;
+}
+
+footer { 
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+} 
+
+footer p { 
+  margin: 0; 
+} 
+
+.social-icons { 
+  display: flex; 
+  padding: 20px; 
+} 
+
+.social-icons img { 
+  width: 30px; 
+  height: 30px; 
+  margin-right: 10px; 
+} 
+
+main { 
+  flex: 3; 
+  background-color: beige; 
+} 
+  
+@media screen and (max-width: 768px){
+  .trip {
+      flex-basis: 100%;
+  }
+}

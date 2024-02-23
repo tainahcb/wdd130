@@ -4,76 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quiz Test</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f0f0f0;
-    }
-
-    .container {
-      max-width: 600px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    h2 {
-      margin-bottom: 20px;
-    }
-
-    .question {
-      margin-bottom: 20px;
-    }
-
-    .question label {
-      display: block;
-      margin-bottom: 5px;
-    }
-
-    .question input[type="radio"] {
-      margin-right: 5px;
-    }
-
-    button[type="submit"] {
-      background-color: #333;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    button[type="submit"]:hover {
-      background-color: #000;
-    }
-  </style>
+  <link rel="stylesheet" href="quiz.css">
 </head>
-<body>
+<body> 
+   <header>
+        <img src="images/tcb-logo.jpg" alt="TCB Company">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="trips.html">Trips</a>
+        </nav>
+    </header>
   <div class="container">
     <h2>Quiz Test</h2>
     <form>
       <div class="question">
-        <label for="Q1">1. What is the basic tag used to create an HTML document?</label>
+        <label for="Q1">1. What is the minimum age requirement for rafting in most places?</label>
         <input type="text" id="Q1" name="Q1" required>
         
-        <label for="Q2">2. What is the tag used to create a paragraph in HTML?</label>
+        <label for="Q2">2. What safety equipment is required for rafting?</label>
         <textarea id="Q2" name="Q2" rows="4" cols="50" required></textarea>
         
-        <label for="Q3">3. What is the tag used to create a dropdown list in HTML?</label>
+        <label for="Q3">3. Which of the following is NOT a type of rafting difficulty level?</label>
         <select id="Q3" name="Q3" required>
             <option value="">Choose One ...</option>
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
+            <option value="Easy">Easy</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
         </select>
         
-        <label for="Q4">4. What is the tag used to create an input field for integers in HTML?</label>
+        <label for="Q4">4. What is the name of the longest river in the world?</label>
         <input type="number" id="Q4" name="Q4" required>
       </div>
       <button type="submit">Enviar Quiz</button>
     </form>
   </div>
+  <footer>
+    <p>©2024 👩‍💻 Tainah Correia 👩🏾‍💻 Goiânia, Brazil</p>
+    <div class="social-icons">
+        <img src="images/facebook.jpg" alt="Facebook Icon">
+        <img src="images/twitter.jpg" alt="Twitter Icon">
+        <img src="images/instagram.jpg" alt="Instagram Icon">
+    </div>
+</footer> 
 </body>
 </html>
+
+  
